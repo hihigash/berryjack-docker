@@ -1,5 +1,7 @@
 # berryjack-docker
 
+Twitter media downloader
+
 ## Prepare
 
 **list.txt :**
@@ -12,6 +14,5 @@
 ## Usage
 
 ```bash
-docker run -v $(pwd)/list.txt:/list.txt -v $(pwd)/out:/works/out <docker images>
+docker run -v $(pwd)/list.txt:/list.txt -v $(pwd)/out:/works/out hihigash/berryjack
 ```
-
